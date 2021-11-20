@@ -1,0 +1,12 @@
+2. Write a blog on Difference between HTTP1.1 vs HTTP2
+* HTTP stands for Hyper Text Transfer protocol.This protocol establish connection between the browser and the server. 
+* HTTP1.1 keeps the data in text format whereas HTTP2 keeps the data in binary format.
+
+3. Write a blog about objects and its internal representation in Javascript
+* Object is a combination of {key, value} pair and it is expressed between curley braces{}.
+* Using Object, we can store and the access the data.
+* Object can be represented as,
+                        student{
+				name : "Ria",
+				class: "8"
+			     };
