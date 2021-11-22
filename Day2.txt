@@ -1,0 +1,30 @@
+1.List 5 difference between Browser JS(console) v Nodejs
+In Browser, we wil be interacting with the DOM(Document Object Module) which serves as a user visual interface whereas in Nodejs, there is no DOM .
+Browser uses API(Application Programming Interface) i.e cookies while Nodejs will  not be doing this.
+Browser will be client-side application and Nodejs will be server-side application.
+Brower will be storing all our  user data via cookies while in Nodejs, it will have direct access to database and storage and it is secure compared to brower.
+In browser, require() is used while in Nodejs, we will be using import().
+
+2. Execute the below code and write your description in txt file
+a)typeof(1)
+typeof() is a function which is used to get the datatype.Now the input is 1, since it is a number, it will return number.
+b)typeof(1.1)
+Although the input is float(1.1),ith will print number as output because, In javascript,float,integer,double all comes under the data type Number.
+c)typeof('1.1')
+The output will be string because, any values within a single or double quote will be a string. 
+d)typeof(true)
+The output will be boolean because onle the boolean has two values ie, true and false.
+e)typeof(null)
+The output will be object, instead of undefined because, it is used as an empty reference to the object.
+f)typeof(undefined)
+The output will also be undefined becuase there is no value assiged.	
+g)typeof([])
+The output will be object because  it is an empty array.
+h)typeof({})
+Since this {}braces represent object ,it will print object as the data type. 
+i)typeof(NaN)
+The output will be number. Although it stands for Not a number,i t is technically considered as a number.
+	
+3. Read what is prototype
+Prototype means inheritance of functions. Prototype is an object that is associated with every functions and objects by default in JavaScript, where function's prototype property is accessible and modifiable.
+Every function includes prototype object by default.
