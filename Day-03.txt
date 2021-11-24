@@ -1,0 +1,102 @@
+						DAY-03 ASSIGNMENT
+1. For the given JSON iterate over all for loops (for, for in, for of, forEach)
+a)for loop
+	var obj =   [
+      	{one: [11, 12, 13, 14, 15]},
+      	{two: [21, 22, 23]},
+      	{three: [31, 32]}
+  	]
+
+	for (var i=0; i<obj.length; i++) {
+ 	console.log(obj)
+      	}
+
+b)forEach loop  
+	var employee=[
+    	{
+    	emp_name:"Raju",
+     	emp_id:201,
+     	emp_work:"Driver",
+	}
+	];
+	employee.forEach(function(emp){
+    	console.log(emp);
+    	});
+
+c)for of loop
+	var employee=[
+    	{
+    	emp_name:"Raju",
+     	emp_id:201,
+     	emp_work:"Driver",
+	}
+	];
+	for(var emp of employee){
+    	console.log(emp);
+	}
+
+d)for in loop
+	var employee=[
+    	{
+    	emp_name:"Raju",
+     	emp_id:201,
+     	emp_work:"Driver",
+	}
+	];
+	for(var emp in employee){
+    	console.log(employee[emp]);
+	}
+
+2. Create your own resume data in JSON format
+	basics:[
+     	{
+    	"name": "Divya.R",
+    	"email": "rajudivya399@gmail.com",
+    	"degree": "Bachelor of Engineering",
+    	"specialization":"Electronics and Communication Engineering",
+    	"location": {
+      	"address": "GandhiNagar,Oddanchatram",
+      	"postalCode": "624619",
+      	"city": "Dindugal",
+      	"countryCode": "India",
+      	"region": "Hindu"
+    	}
+	 ],
+  	education: [
+    	{
+      	"institution": "Kathir college of Engineering",
+      	"area": "Coimbatore",
+      	"startDate": "2017",
+      	"endDate": "2021",
+      	"gpa": "7.4",
+   	 }
+ 	 ],
+ 
+  	skills: [
+   	 {
+      	"name": "Programming Languages",
+      	"level": "8",
+      	keywords: [
+       	 "C,HTML,CSS",
+      	]
+   	 }
+  	],
+ 	 languages: [
+    	{
+      	"language": "Tamil,English",
+     	 "fluency": "Good"
+    	}
+  	],
+ 	 interests: [
+   	 {
+      	"name": "stiching,music,cooking",
+    	}
+ 	 ]
+	};
+
+3. Read about the difference between window, screen and document in javascript
+	Window is the actual object that loads first into the browser.It has properties like length, innerWidth, innerHeigth.To access the property of window, it is window.property.
+	Document	is the html or php file that will be loaded or parsed into the browser. It has the properties like title, url, cookies. To access the property of document, window.document.property can be used.It can also be used as document.property as short.
+	Screen describes the physical display's full screen.It has the properties like height and width of the screen. To access these properties, window.screen is used.
+ 
+    	
